@@ -1,0 +1,33 @@
+
+.card{
+    width: 30%;
+
+}
+
+.header{
+    background-color: bisque;
+    padding: 0.4em;
+    text-align: right;
+    border-radius: 4% 4% 0 0;
+}
+
+.body{
+    text-align: center;   
+}
+
+.table{
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.footer{
+    text-align: right;
+    background-color: grey;
+    padding: 1em 1em 1em 1em;
+}
+
+.btn{
+    padding: .5em 1em .5em 1em;
+    border-radius: 1000px;
+    
+}
