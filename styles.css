@@ -55,5 +55,7 @@ td:nth-child(3){
     padding: .5em 1em .5em 1em;
     border-radius: 1000px;
     border: 2px solid transparent;
-    color: #171313;
+    color: #99ad74;
+    background-color: #daf7a6;
+    font-weight: 800;
 }
