@@ -1,18 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,900;1,500&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body{
+    margin: 0;
+    background-color: aliceblue;
+}
 
 .card{
-    width: 30%;
-
+    width: 17em;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: #75615f;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 100px;
 }
 
 .header{
-    background-color: bisque;
-    padding: 0.4em;
+    background-color: #e9c2bd;
+    padding: 0.4em 1em 0.4em 1em;
     text-align: right;
-    border-radius: 4% 4% 0 0;
+    border-radius: 10px 10px 0 0;
+    border-bottom: #e9c2bd;
 }
 
-.body{
+.cbody{
     text-align: center;   
+    background-color: #edceca;
 }
 
 .table{
@@ -20,14 +33,27 @@
     padding: 1em;
 }
 
+tr{
+   line-height: 2em;
+}
+
+td:nth-child(1){
+   padding: 0 1em 0 1em;
+}
+td:nth-child(3){
+    padding: 0 1em 0 1em;
+ }
+
 .footer{
     text-align: right;
     background-color: grey;
     padding: 1em 1em 1em 1em;
+    border-radius: 0 0 10px 10px;
 }
 
 .btn{
     padding: .5em 1em .5em 1em;
     border-radius: 1000px;
-    
+    border: 2px solid transparent;
+    color: #171313;
 }
